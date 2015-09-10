@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <NavigateUrl>http://www.facebook.com</NavigateUrl>
+    <ImageUrl>Images/facebook.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <NavigateUrl>http://www.microsoft.com</NavigateUrl>
+    <ImageUrl>Images/microsoft.jpg</ImageUrl>
+  </Ad>
+</Advertisements>

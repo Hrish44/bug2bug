@@ -1,0 +1,24 @@
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Bug2Bug._Default" %>
+
+
+
+
+<asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                
+                <h2>Welcome to Our Password-Protected Book Information Site.<br />
+                    <br />
+                    <br />
+                    View your Ads..!</h2>
+            </hgroup>
+            <asp:AdRotator ID="AdRotator1" runat="server" DataSourceID="XmlDataSource1"/>
+            <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/Adverts.xml"></asp:XmlDataSource>
+            <p>
+                To learn more about our books, <a href="ProtectedContent/Books.aspx">click here</a> or click the Books tab in the navigation bar above. You must be logged in to view the Books page.</p>
+        </div>
+    </section>
+</asp:Content>
+<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+    </asp:Content>
